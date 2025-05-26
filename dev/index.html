@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Noticia</title>
+    <style>
+        @font-face {
+            font-family:'lora';
+            src: url(fontes/Lora/Lora-VariableFont_wght.ttf);
+        }
+        @font-face {
+            font-family:'fair';
+            src: url(fontes/Playfair_Display_SC/PlayfairDisplaySC-Bold.ttf);
+        }
+        @font-face {
+            font-family:'raleway';
+            src: url(fontes/Raleway/Raleway-VariableFont_wght.ttf);
+        }
+        :root{
+            --fonte-titulo:'fair';
+            --fonte-h2:'lora';
+            --fonte-texto:'raleway';
+        }
+        *{
+            color: #8C5C20;
+        }
+        body{
+            background-color: #59573B;
+        }
+        main,header{
+            background-color:#F2DC99 ;
+            padding: 10px;
+            border-radius: 10px;
+        }
+        header{
+            margin-bottom: 10px;
+        }
+        h1{
+            text-align: center;
+            font-family: var(--fonte-titulo);
+        }
+        h2{
+            background-color: #8C5C20;
+            color: #A69576;
+            font-family: var(--fonte-h2);
+        }
+        .imagem > p{
+           background-color: #a69576b6;
+           width: 40%;
+           padding: 10px;
+           text-align: justify;
+           border-radius: 10px;
+           box-shadow: 1px 1px 5px black;
+           margin-left: 50px;
+        }
+        .imagem{
+            background-repeat: no-repeat;
+            background-size: cover;
+            height: 500px;
+            width: 600px;
+            border-radius: 20px;
+            box-shadow: 1px 1px 6px black;
+
+            display: flex;
+            align-items: center;
+            justify-content: 20%;
+        }
+        #d1{
+            background-image: url(imagens/download\ \(1\).jpg);
+        }
+        #d2{
+            background-image: url(imagens/download\ \(2\).jpg);
+            background-position: center top;
+        }
+        #d{
+            background-image: url(imagens/download.jpg);
+            background-position: center center;
+        }
+        #j{
+            background-image: url(imagens/Jesus\ anda\ sobre\ as\ águas.jpg);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>A vida de Jesus</h1>
+        <menu>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+        </menu>
+    </header>
+    <main>
+        <h2>Convivencia com Deus</h2>
+        <div id="d1" class="imagem">
+            <p>Jesus demonstrou uma profunda conexão com Deus ao longo de sua vida. Ele frequentemente se retirava para orar, buscando orientação e força espiritual. Seu relacionamento com Deus era baseado na confiança, na obediência e no amor incondicional. Ele ensinou que todos podem ter essa mesma proximidade com Deus por meio da fé e da oração sincera.</p>
+        </div>
+        <h2>Curiosidade</h2>
+        <div id="d2" class="imagem">
+            <p>A vida de Jesus desperta curiosidade até hoje. Desde seu nascimento milagroso até os mistérios de sua infância, muitos se perguntam sobre os detalhes de sua trajetória. Um dos momentos mais intrigantes foi quando, aos 12 anos, ele impressionou os doutores da Lei no templo com sua sabedoria. Além disso, seus milagres e parábolas continuam a fascinar estudiosos e fiéis ao redor do mundo</p></div>
+        <h2>Ensinamentos</h2>
+        <div id="d" class="imagem"><p>Jesus trouxe ensinamentos que transformaram vidas. Ele pregou sobre amor, perdão, humildade e justiça. Suas parábolas, como a do Bom Samaritano e a do Filho Pródigo, ilustram valores essenciais para a humanidade. O Sermão da Montanha é um dos momentos mais marcantes de sua pregação, onde ele ensinou sobre bem-aventuranças e a importância de viver com compaixão</p></div>
+        <h2>Legado</h2>
+        <div id="j" class="imagem"><p>O legado de Jesus é imensurável. Ele influenciou a história, a cultura e a espiritualidade de bilhões de pessoas. Seu impacto vai além da religião, moldando princípios éticos e morais que são seguidos até hoje. Sua mensagem de amor e redenção continua a inspirar gerações, e sua vida é um exemplo de fé e dedicação a Deus</p></div>
+    </main>
+    <footer></footer>
+</body>
+</html>
